@@ -1,6 +1,8 @@
 # 7. Checking your labels
 
 
+![The label overlay during a run: each captured image with its boxes, class names and visible %](../images/play_overlay.jpg)
+
 **Label overlay.** While capturing, the viewport shows each captured image with its boxes, class names and visible %,
 with filtered-out objects in grey. Press **L** to hide or show it and **M** to switch to the **instance mask** (a
 color per object) or **semantic mask** (a color per class). It's drawn on screen only and never ends up in your

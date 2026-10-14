@@ -3,6 +3,8 @@
 
 ### 6.1 Manager
 
+![The QuickSynth Manager in the Details panel](../images/manager_details.png)
+
 One Manager is one dataset. It decides:
 
 - **Capture:** which *Capture Camera* takes the pictures (required), *Image Count*, *Resolution*,
@@ -19,6 +21,8 @@ One Manager is one dataset. It decides:
 Use *Generate …* to pick which one runs. Want two views of the same scene? Use two Managers with two cameras.
 
 ### 6.2 Capture Camera
+
+![The Capture Camera in the Details panel](../images/camera_details.png)
 
 **Fixed or Orbit?**
 
@@ -59,6 +63,8 @@ this.
 
 ### 6.3 Object Library
 
+![An Object Library: one entry per object, with its label, color, meshes and counts](../images/object_library.png)
+
 The Object Library is the list of everything that goes into your dataset, and you can reuse it in any level. Create
 one with Content Browser → right-click → QuickSynth → **Object Library**. For each object:
 
@@ -76,6 +82,8 @@ one with Content Browser → right-click → QuickSynth → **Object Library**. 
 number). Models learn these numbers, so **add new objects at the end**; moving objects around renumbers them.
 
 ### 6.4 Spawn Volume
+
+![A Spawn Volume using an Object Library: one row per object](../images/volume_details.png)
 
 The volume spawns and shuffles **its own objects only**; it never moves or changes anything already in your level.
 
@@ -114,6 +122,8 @@ the Details panel, then type its class name. Use the same name as in your Object
 number. The whole actor is labeled as one object.
 
 ### 6.7 Lighting Randomizer
+
+![The Lighting Randomizer with its sun and sky light picked](../images/lighting_details.png)
 
 Drag in a **QuickSynth Lighting Randomizer**, pick your Directional Light in *Sun › Sun Light* and your Sky Light in
 *Sky › Sky Light*, and add the Lighting Randomizer to the Manager's *Lighting Randomizers*. It changes, for every

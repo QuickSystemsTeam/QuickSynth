@@ -21,6 +21,10 @@
 8. **Open it.** Click **Open Output Folder** in the "done" notification. You'll find a `yolo/` folder that is ready
    to train on (see [§8](using-the-dataset.md#8-using-the-dataset)).
 
+![The demo level's Outliner: everything QuickSynth uses sits in one folder](../images/outliner.png)
+
+*A finished setup (the demo map): the Manager, the Capture Camera, two Spawn Volumes and a Lighting Randomizer.*
+
 That's the whole workflow. Everything else in this guide is about making the dataset better.
 
 **Want to see a finished setup first?** Open the demo map `QS_Demo_Tabletop` (Content Browser → enable *Show
