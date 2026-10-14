@@ -1,0 +1,47 @@
+site_name: QuickSynth Documentation
+site_author: Quick Systems
+site_description: Generate labeled synthetic image datasets in Unreal Engine with QuickSynth.
+copyright: Copyright &copy; 2026 Quick Systems &middot; <a href="mailto:quicksystemssupport@gmail.com">quicksystemssupport@gmail.com</a>
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - toc.integrate
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle: {icon: material/brightness-7, name: Dark mode}
+    - scheme: slate
+      primary: indigo
+      toggle: {icon: material/brightness-4, name: Light mode}
+markdown_extensions:
+  - tables
+  - toc: {permalink: true}
+  - admonition
+  - pymdownx.superfences
+nav:
+  - "Home": index.md
+  - "User Guide":
+      - "Requirements and installation": guide/requirements-and-installation.md
+      - "Quick start: your first dataset in 5 minutes": guide/quick-start-your-first-dataset-in-5-minutes.md
+      - "How QuickSynth works": guide/how-quicksynth-works.md
+      - "The QuickSynth toolbar": guide/the-quicksynth-toolbar.md
+      - "Validate Scene: every check explained": guide/validate-scene-every-check-explained.md
+      - "Setting up a scene": guide/setting-up-a-scene.md
+      - "Checking your labels": guide/checking-your-labels.md
+      - "Using the dataset": guide/using-the-dataset.md
+      - "Rendering quality": guide/rendering-quality.md
+      - "Best practices": guide/best-practices.md
+      - "Troubleshooting": guide/troubleshooting.md
+      - "FAQ": guide/faq.md
+  - "Feature Reference":
+      - "Workflow": reference/workflow.md
+      - "Actors and assets": reference/actors-and-assets.md
+      - "Output": reference/output.md
+      - "Guarantees": reference/guarantees.md
+      - "Known limits": reference/known-limits.md
+      - "Planned": reference/planned.md
