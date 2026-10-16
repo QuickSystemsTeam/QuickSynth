@@ -219,11 +219,11 @@ With auto exposure (the default), the camera adapts to brighter or darker lighti
 
 ### 2.8 Demo map
 
-`/QuickSynth/Demo/Maps/QS_Demo_Tabletop` (Content Browser → Plugins → QuickSynth Content → Demo → Maps; enable
+`/QuickSynth/Maps/LV_Demo_Tabletop` (Content Browser → Plugins → QuickSynth Content → Maps; enable
 *Show Plugin Content* in the Content Browser settings). A wooden table with four fruit classes (apple, banana,
-lemon, lime) and onions and sweet potatoes as distractors, all in the Object Library `OL_Demo_Fruit` (bananas
+lemon, lime) and onions and sweet potatoes as distractors, all in the Object Library `DA_ObjectLibrary_Fruit` (bananas
 are one class with two meshes: a bunch and a single banana), and a cloth with a random surface (brick, clay tiles,
-corrugated iron, velvet) from a Material Set, set up as a Spawn Entry in its own volume. Lighting is Unreal's Sun & Sky setup (Directional Light, Sky
+corrugated iron, velvet) from the Material Set `DA_MaterialSet_Surfaces`, set up as a Spawn Entry in its own volume. Lighting is Unreal's Sun & Sky setup (Directional Light, Sky
 Atmosphere, real-time Sky Light), and a Lighting Randomizer changes the sun's direction, brightness and color every
 image; the sky and sky light follow it automatically.
 
@@ -233,4 +233,10 @@ image; the sky and sky light follow it automatically.
 - **Capture Camera:** random orbits around the fruit at 55–160 cm, random field of view.
 
 All demo assets are CC0 (credits in `DemoAssetCredits.md`).
+
+**Plugin content layout.** The plugin's content folders are named by asset type, as Fab requires: `Maps`, `Data`
+(Object Library and Material Set), `Materials`, `Meshes`, `Textures`. Everything is demo content except the two
+materials QuickSynth itself uses, `Materials/M_QuickSynth_InstanceID` and `Materials/M_QuickSynth_Randomizable`.
+Names use Unreal's prefixes: `LV_` level, `DA_` data asset, `M_` material, `MI_` material instance, `SM_` static
+mesh, `T_` texture.
 

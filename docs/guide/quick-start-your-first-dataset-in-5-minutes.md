@@ -27,7 +27,7 @@
 
 That's the whole workflow. Everything else in this guide is about making the dataset better.
 
-**Want to see a finished setup first?** Open the demo map `QS_Demo_Tabletop` (Content Browser → enable *Show
-Plugin Content* → QuickSynth Content → Demo → Maps) and press Play. It shows fruit detection with distractors,
+**Want to see a finished setup first?** Open the demo map `LV_Demo_Tabletop` (Content Browser → enable *Show
+Plugin Content* → QuickSynth Content → Maps) and press Play. It shows fruit detection with distractors,
 random cloth surfaces, lighting changes and a camera orbiting the fruit at random.
 
